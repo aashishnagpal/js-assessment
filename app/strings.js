@@ -8,6 +8,7 @@ exports.stringsAnswers = {
 
   },
   reverseString: function(str) {
-
+    var strCharArr = str.split('');
+    return strCharArr.reverse().join('');
   }
 };
